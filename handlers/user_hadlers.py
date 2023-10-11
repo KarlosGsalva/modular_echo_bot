@@ -18,5 +18,3 @@ async def process_start_command(message: Message):
 @router.message(Command(commands='help'))
 async def process_start_command(message: Message):
     await message.answer(text=LEXICON_RU['/help'])
-
-
